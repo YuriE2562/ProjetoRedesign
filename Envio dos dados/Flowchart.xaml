@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>745,825</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1057,825</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -175,7 +175,7 @@
               <av:PointCollection x:Key="ConnectorLocation">350,212.5 350,436.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <If Condition="[Dados IsNot Nothing]" DisplayName="If - Envio de dados ao forms" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="If_10">
+          <If Condition="[Dados IsNot Nothing]" DisplayName="If - Envio de dados ao forms" sap:VirtualizedContainerService.HintSize="656,5378" sap2010:WorkflowViewState.IdRef="If_10">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -352,7 +352,7 @@
                             </uix:TargetAnchorable>
                           </uix:NTypeInto.Target>
                         </uix:NTypeInto>
-                        <Assign DisplayName="Assign - Conversao de string para int32" sap:VirtualizedContainerService.HintSize="484,82" sap2010:WorkflowViewState.IdRef="Assign_28">
+                        <Assign DisplayName="Assign - Conversao para variavel" sap:VirtualizedContainerService.HintSize="484,82" sap2010:WorkflowViewState.IdRef="Assign_28">
                           <Assign.To>
                             <OutArgument x:TypeArguments="x:String">[TotalPrice]</OutArgument>
                           </Assign.To>
@@ -376,7 +376,7 @@
                             </uix:TargetAnchorable>
                           </uix:NTypeInto.Target>
                         </uix:NTypeInto>
-                        <Assign DisplayName="Assign - Conversão de string para int32" sap:VirtualizedContainerService.HintSize="484,82" sap2010:WorkflowViewState.IdRef="Assign_29">
+                        <Assign DisplayName="Assign - Conversão para variavel" sap:VirtualizedContainerService.HintSize="484,82" sap2010:WorkflowViewState.IdRef="Assign_29">
                           <Assign.To>
                             <OutArgument x:TypeArguments="x:String">[ListPrice]</OutArgument>
                           </Assign.To>
